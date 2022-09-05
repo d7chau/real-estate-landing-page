@@ -252,3 +252,62 @@ html,body
     margin: 0;
     text-align: center;
 }
+
+.sec-3-container{
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sec-3-inner-container{
+    background-color: #ffffff;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-3-head-1{
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.quotes-img{
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    padding-bottom: 30px;
+}
+
+.sec-3-par-1{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sec-3-par-2{
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
