@@ -352,6 +352,7 @@ html,body
 .sec-4-column{
     padding-left: 20px;
     padding-right: 20px;
+    flex-basis: 33.33333%;
 }
 
 .property-1-img{
