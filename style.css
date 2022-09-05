@@ -1,0 +1,155 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.inner-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.background-img{
+    background-image: linear-gradient(rgba(4, 4, 36, 0.75), rgba(4, 4, 36, 0.75)), url("img/background.jpg");
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.company-branding{
+    display: flex;
+}
+
+.company-logo{
+    width: 100%;
+    max-width: 40px;
+    height: 50px;
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+
+.company-name{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 45px;
+}
+
+.sec-1-inner-container{
+    display: flex;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 85px;
+}
+
+.sec-1-text-container{
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.sec-1-head-1{
+    font-size: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.sec-1-head-2{
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+}
+
+.contact-form-container{
+    display: flex;
+    background-color: #ffffff;
+    padding: 60px 40px 60px 40px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.form-header-container{
+    /* align-items: center; */
+}
+
+.input-container{
+    /* align-items: center; */
+}
+
+.contact-form{
+    width: 350px;
+}
+
+.contact-form-header{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.input-box-1{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.input-box-2{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.input-box-3{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.input-box-4{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.submit-btn{
+    background-color: #1d85ff;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    height: 55px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    transition-duration: 0.4s;
+    background-color:#1b6dca;
+}
