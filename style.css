@@ -111,7 +111,8 @@ html,body
     width: 100%;
     height: 30px;
     font-size: 15px;
-    padding: 0px;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
     margin-bottom: 20px;
 }
 
@@ -119,7 +120,8 @@ html,body
     width: 100%;
     height: 30px;
     font-size: 15px;
-    padding: 0px;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
     margin-bottom: 20px;
 }
 
@@ -127,7 +129,8 @@ html,body
     width: 100%;
     height: 30px;
     font-size: 15px;
-    padding: 0px;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
     margin-bottom: 20px;
 }
 
@@ -135,7 +138,8 @@ html,body
     width: 100%;
     height: 30px;
     font-size: 15px;
-    padding: 0;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
     margin-bottom: 20px;
 }
 
@@ -152,4 +156,98 @@ html,body
 .submit-btn:hover{
     transition-duration: 0.4s;
     background-color:#1b6dca;
+}
+
+.sec-2-container{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-2-head-1{
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.sec-2-par-1{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sec-2-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.evaluation-container{
+    padding: 15px 30px 15px 30px;
+}
+
+.property-comps-container{
+    padding: 15px 30px 15px 30px;
+}
+
+.report-container{
+    padding: 15px 30px 15px 30px;
+}
+
+.no-strings-container{
+    padding: 15px 30px 15px 30px;
+}
+
+.evaluation-img{
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.property-comps-img{
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.report-img{
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.no-strings-img{
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.sec-2-head-2{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    color: #000000;
+    margin: 0;
+    text-align: center;
 }
