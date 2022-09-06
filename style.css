@@ -469,13 +469,17 @@ html,body
     margin: 0;
 }
 
+.agent-container{
+    justify-content: center;
+}
+
 .agent-img{
     display: block;
     width: 400px;
     height: 400px;
     padding-left: 80px;
-    justify-content: center;
 }
+
 
 .sec-6-container{
     background-color: #002750;
@@ -522,4 +526,46 @@ html,body
 
 .security-link{
     padding-left: 10px;
+}
+
+/* Desktops, Large screens (if smaller than 1200px then run code)*/
+@media only screen and (max-width:1200px){
+
+}
+
+/* Laptops, Small screens (if smaller than 1024px then run code)*/
+@media only screen and (max-width:1024px){
+    .sec-1-inner-container{
+        max-width: 850px;
+    }
+
+    .sec-1-text-container{
+        padding-right: 60px;
+    }
+
+    .sec-1-head-1{
+        font-size: 45px;
+    }
+
+    .sec-1-head-2{
+        font-size: 25px;
+    }
+
+    .contact-form-container{
+        padding: 50px 30px 50px 30px;
+    }
+
+    .sec-5-inner-container{
+        max-width: 850px;
+    }
+}
+
+/* iPads, Tablets (if smaller than 768px then run code)*/
+@media only screen and (max-width:768px){
+
+}
+
+/* Mobile (if smaller than 500px then run code)*/
+@media only screen and (max-width:500px){
+
 }
