@@ -86,14 +86,6 @@ html,body
     flex-direction: row;
 }
 
-.form-header-container{
-    /* align-items: center; */
-}
-
-.input-container{
-    /* align-items: center; */
-}
-
 .contact-form{
     width: 350px;
 }
@@ -483,4 +475,51 @@ html,body
     height: 400px;
     padding-left: 80px;
     justify-content: center;
+}
+
+.sec-6-container{
+    background-color: #002750;
+    border-color: #002750;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copyright-text{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.footer-links{
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-links a{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.footer-links a:hover{
+    text-decoration: none;
+}
+
+.legal-link{
+    padding-right:10px;
+}
+
+.privacy-link{
+    padding-left: 10px; 
+    padding-right:10px;
+}
+
+.security-link{
+    padding-left: 10px;
 }
