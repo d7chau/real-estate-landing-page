@@ -213,28 +213,32 @@ html,body
 }
 
 .evaluation-img{
-    width: 110px;
+    width: 100%;
+    max-width: 110px;
     height: 110px;
     margin: 0 auto;
     padding-bottom: 25px;
 }
 
 .property-comps-img{
-    width: 110px;
+    width: 100%;
+    max-width: 110px;
     height: 110px;
     margin: 0 auto;
     padding-bottom: 25px;
 }
 
 .report-img{
-    width: 110px;
+    width: 100%;
+    max-width: 110px;
     height: 110px;
     margin: 0 auto;
     padding-bottom: 25px;
 }
 
 .no-strings-img{
-    width: 110px;
+    width: 100%;
+    max-width: 110px;
     height: 110px;
     margin: 0 auto;
     padding-bottom: 25px;
@@ -351,8 +355,8 @@ html,body
 }
 
 .property-img{
-    max-width: 250px;
     width: 100%;
+    max-width: 250px;
     margin: 0 auto;
 }
 
@@ -457,7 +461,6 @@ html,body
     padding-left: 80px;
 }
 
-
 .sec-6-container{
     background-color: #002750;
     border-color: #002750;
@@ -509,7 +512,6 @@ html,body
 
 /* Desktops, Large screens (if smaller than 1200px then run code)*/
 @media only screen and (max-width:1200px){
-
 }
 
 /* Laptops, Small screens (if smaller than 1024px then run code)*/
@@ -655,22 +657,26 @@ html,body
     }
 
     .evaluation-img{
-        width: 80px;
-        height: 80px;
+        width: 100%;
+        max-width: 90px;
+        height: 90px;
     }
     
     .property-comps-img{
-        width: 90px;
+        width: 100%;
+        max-width: 90px;
         height: 90px;
     }
     
     .report-img{
-        width: 90px;
+        width: 100%;
+        max-width: 90px;
         height: 90px;
     }
     
     .no-strings-img{
-        width: 90px;
+        width: 100%;
+        max-width: 90px;
         height: 90px;
     }
 
@@ -698,8 +704,8 @@ html,body
     }
 
     .property-img{
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        max-width: 250px;
     }
 
     .sec-4-par-3{
@@ -792,22 +798,26 @@ html,body
     }
 
     .evaluation-img{
-        width: 110px;
+        width: 100%;
+        max-width: 110px;
         height: 110px;
     }
     
     .property-comps-img{
-        width: 110px;
+        width: 100%;
+        max-width: 110px;
         height: 110px;
     }
     
     .report-img{
-        width: 110px;
+        width: 100%;
+        max-width: 110px;
         height: 110px;
     }
     
     .no-strings-img{
-        width: 110px;
+        width: 100%;
+        max-width: 110px;
         height: 110px;
     }
     
@@ -859,8 +869,8 @@ html,body
     }
 
     .property-img{
-        width: 225px;
-        height: 225px;
+        width: 100%;
+        max-width: 225px;
     }
 
     .sec-4-par-3{
