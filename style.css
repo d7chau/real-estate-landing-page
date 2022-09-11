@@ -13,7 +13,7 @@ html,body
 }
 
 .background-img{
-    background-image: linear-gradient(rgba(4, 4, 36, 0.75), rgba(4, 4, 36, 0.75)), url("img/background.jpg");
+    background-image: linear-gradient(rgba(4, 4, 36, 0.75), rgba(4, 4, 36, 0.75)), url("https://i.imgur.com/A94veY4.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
