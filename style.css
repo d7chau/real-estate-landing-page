@@ -732,6 +732,10 @@ html,body
 
 /* Mobile (if smaller than 500px then run code)*/
 @media only screen and (max-width:500px){
+    .background-img{
+        background-attachment: scroll;
+    }
+    
     .company-logo{
         width: 100%;
         max-width: 30px;
